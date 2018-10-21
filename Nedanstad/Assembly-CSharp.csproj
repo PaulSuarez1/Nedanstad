@@ -369,8 +369,13 @@
     <Compile Include="Assets\ParadoxNotion\FlowCanvas\Module\TypeConverter.cs" />
     <Compile Include="Assets\ParadoxNotion\FlowCanvas\Module\Wild.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
+    <Compile Include="Assets\Scripts\Chest.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyDB.cs" />
+    <Compile Include="Assets\Scripts\ItemDB.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Rat.cs" />
+    <Compile Include="Assets\Scripts\Spooker.cs" />
     <None Include="Assets\ParadoxNotion\FlowCanvas\Framework\_Commons\Runtime\Serialization\_LICENSE - FULL SERIALIZER.txt" />
     <None Include="Assets\ParadoxNotion\FlowCanvas\!ReadMe!.txt" />
     <Reference Include="UnityEditor.StandardEvents">

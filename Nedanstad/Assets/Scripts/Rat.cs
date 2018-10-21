@@ -11,7 +11,7 @@ public class Rat : Enemy {
         Attack = 5;
         Defence = 3;
         Gold = 20;
-        Inventory.Add("This is loot");
+        Inventory.Add("Blood");
     }
 
 }
