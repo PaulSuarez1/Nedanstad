@@ -11,7 +11,7 @@ namespace NedanstadRPG
         public int Defence { get; set; }
         public int Gold { get; set; }
         public Vector2 RoomIndex { get; set; }
-        public List<string> Inventory { get; set; }
+        public List<string> Inventory { get; set; } = new List<string>();
 
         public virtual void TakeDamage(int amount)
         {
