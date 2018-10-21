@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace NedanstadRPG
 {
-    // Dungeon in this class
+    // Dungeon level is in this class
     public class World : MonoBehaviour
     {
 
