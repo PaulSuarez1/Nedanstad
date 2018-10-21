@@ -375,7 +375,9 @@
     <Compile Include="Assets\Scripts\ItemDB.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Rat.cs" />
+    <Compile Include="Assets\Scripts\Room.cs" />
     <Compile Include="Assets\Scripts\Spooker.cs" />
+    <Compile Include="Assets\Scripts\World.cs" />
     <None Include="Assets\ParadoxNotion\FlowCanvas\Framework\_Commons\Runtime\Serialization\_LICENSE - FULL SERIALIZER.txt" />
     <None Include="Assets\ParadoxNotion\FlowCanvas\!ReadMe!.txt" />
     <Reference Include="UnityEditor.StandardEvents">

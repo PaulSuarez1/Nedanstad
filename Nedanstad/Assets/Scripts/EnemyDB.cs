@@ -21,6 +21,11 @@ namespace NedanstadRPG
          
         }
 
+        public Enemy GetRandomEnemy()
+        {
+            return Enemies[Random.Range(0, Enemies.Count)];
+        }
+
     }
 
 

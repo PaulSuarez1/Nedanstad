@@ -5,7 +5,7 @@ using UnityEngine;
 namespace NedanstadRPG
 {
 
-    public class Chest : MonoBehaviour
+    public class Chest
     {
         public string Item { get; set; }
         public int Gold { get; set; }
@@ -25,7 +25,7 @@ namespace NedanstadRPG
             }
             else if (Random.Range(0, 5) == 2)
             {
-                Enemy = EnemyDB.Instance.Enemies[Random.Range(0, EnemyDB.Instance.Enemies.Count)];
+                Enemy = EnemyDB.Instance.GetRandomEnemy();
             }
             else
             {
