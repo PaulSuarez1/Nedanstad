@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace NedanstadRPG
 {
-
+    // creates random chests
     public class Chest
     {
         public string Item { get; set; }
