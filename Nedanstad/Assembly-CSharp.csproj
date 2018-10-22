@@ -380,6 +380,7 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyDB.cs" />
     <Compile Include="Assets\Scripts\ItemDB.cs" />
+    <Compile Include="Assets\Scripts\Journal.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Rat.cs" />
     <Compile Include="Assets\Scripts\Room.cs" />

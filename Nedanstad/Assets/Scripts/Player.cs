@@ -16,10 +16,15 @@ public class Player : Character
         Gold = 0;
         Inventory = new List<string>();
         RoomIndex = new Vector2(2,2);
+        AddItem("Fists!");
+        AddItem("Rag Shirt");
+        AddItem("Rag Pants");
+        AddItem("Map");
     }
 
     public void AddItem(string item)
     {
+        Journal.Instance.Log("You are alive with nothing but: " + item);
         Inventory.Add(item);
     }
 
