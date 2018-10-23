@@ -11,6 +11,8 @@ public class Rat : Enemy {
         Attack = 5;
         Defence = 3;
         Gold = 20;
+        Name = "Rat";
+        Description = "Intelligent betrayers of their rodentkind; rats are employed by the dwarves to keep their dungeons secure.";
         Inventory.Add("Blood");
     }
 

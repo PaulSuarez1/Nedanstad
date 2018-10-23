@@ -12,6 +12,8 @@ public class Spooker : Enemy
         Attack = 10;
         Defence = 1;
         Gold = 25;
+        Name = "Spooker";
+        Description = "The mere sight of these eight-legged monstrosities is enough to stop a man dead... in his tracks";
         Inventory.Add("Web");
     }
 
