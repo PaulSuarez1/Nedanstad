@@ -7,6 +7,8 @@ public class Player : Character
 {
     public int Floor { get; set; }
     public Room Room { get; set; }
+
+    [SerializeField] Encounter encounter;
     [SerializeField] World world;
 
     void Start()
@@ -52,7 +54,7 @@ public class Player : Character
             RoomIndex -= Vector2.down;
         }
         // West
-        if (direction == 3 && RoomIndex.y > 0)
+        if (direction == 3 && RoomIndex.x > 0)
         {
             Journal.Instance.Log("You moved West.");
             RoomIndex += Vector2.left;
@@ -65,6 +67,7 @@ public class Player : Character
     public void Investigate()
     {
         this.Room = world.Dungeon[(int)RoomIndex.x, (int)RoomIndex.y];
+        encounter.ResetDynamicControls();
         if (this.Room.Empty)
         {
             Journal.Instance.Log("There doesn't seem to be anything in here but a cold chill in the air...");
@@ -76,6 +79,7 @@ public class Player : Character
         else if (this.Room.Enemy != null)
         {
             Journal.Instance.Log("Out of the darkness appears a " + Room.Enemy.Name + "! What would you like to do?");
+            encounter.StartCombat();
         }
         else if (this.Room.Exit)
         {

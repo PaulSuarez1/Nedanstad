@@ -377,6 +377,7 @@
     <Compile Include="Assets\ParadoxNotion\FlowCanvas\Module\Wild.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\Chest.cs" />
+    <Compile Include="Assets\Scripts\Encounter.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyDB.cs" />
     <Compile Include="Assets\Scripts\ItemDB.cs" />
