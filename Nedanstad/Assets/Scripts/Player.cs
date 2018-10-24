@@ -9,7 +9,7 @@ public class Player : Character
     public Room Room { get; set; }
 
     [SerializeField] Encounter encounter;
-    [SerializeField] World world;
+    public World world;
 
     void Start()
     {
@@ -83,6 +83,7 @@ public class Player : Character
         }
         else if (this.Room.Exit)
         {
+            encounter.StartExit();
             Journal.Instance.Log("You made it to the exit for this floor! Are you ready to go to the next level?");
         }
     }
